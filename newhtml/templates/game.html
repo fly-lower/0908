@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏排行榜</title>
+</head>
+<body>
+<ol>
+    {% for foo in gamelist %}
+        <li><h2>{{ foo }}</h2>
+            {{ gamelist}}
+            {{ foo }}
+            {{ gamelist.foo }}
+{#            <img src="/static/images/{{ gamelist.foo }}"  alt="">#}
+        </li>
+
+    {% endfor %}
+
+</ol>
+</body>
+</html>
